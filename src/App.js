@@ -7,13 +7,13 @@ import SearchIcon from './search.svg';
 
 const API_URL = 'http://www.omdbapi.com?apikey=63def76f';
 
-const movie1 = {
-    "Title": "Superman, Spiderman or Batman",
-    "Year": "2011",
-    "imdbID": "tt2084949",
-    "Type": "movie",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BMjQ4MzcxNDU3N15BMl5BanBnXkFtZTgwOTE1MzMxNzE@._V1_SX300.jpg"
-}
+// const movie1 = {
+//     "Title": "Superman, Spiderman or Batman",
+//     "Year": "2011",
+//     "imdbID": "tt2084949",
+//     "Type": "movie",
+//     "Poster": "https://m.media-amazon.com/images/M/MV5BMjQ4MzcxNDU3N15BMl5BanBnXkFtZTgwOTE1MzMxNzE@._V1_SX300.jpg"
+// }
 
 const App = () => {
     const [movies, setMovies] = useState([]);
